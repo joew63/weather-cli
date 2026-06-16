@@ -1,6 +1,8 @@
 # Weather CLI App
 A command line app that give you real time weather data for any city using the OpenWeatherMap API.
 
+> **Note:** `test-scraper.py` was used strictly for learning and experimenting during development. It is unrelated to the weather app. The main application is in `weather.py`.
+
 ## What it does
 Type in any city name and get back the current temperature, feels like temperature, humidity, wind speed, and weather description instantly.
 
@@ -50,5 +52,3 @@ Humidity: 45%
 Wind: 5.2 mph
 Clear sky
 ```
-
-> **Note:** `test-scraper.py` was used strictly for learning and experimenting during development. It is unrelated to the weather app. The main application is in `weather.py`.
