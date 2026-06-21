@@ -14,11 +14,6 @@ def get_weather(city):
     lon = data[0]["lon"]
     state = data[0]["state"]
 
-    # print(response.text)
-    # print(name)
-    # print(lat)
-    # print(lon)
-
     weather = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&units=imperial&appid={api_key}"
     weather_request = requests.get(weather)
     weather_data = weather_request.json()

@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from database import get_rows  # whatever function returns your rows
+from database import get_rows
 
 def show_charts():
     rows = get_rows()
